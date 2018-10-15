@@ -1,16 +1,65 @@
-.container {
+/* 
+
+    font-family: 'Amiko', sans-serif;
+
+    font-family: 'Arima Madurai', cursive;
+
+    font-family: 'Farsan', cursive;
+
+    font-family: 'Lalezar', cursive;
+
+    font-family: 'Mogra', cursive;
+
+    font-family: 'Rakkas', cursive;
+
+    font-family: 'Rasa', serif;
+
+    font-family: 'Shrikhand', cursive;
+
+    font-family: 'Suez One', serif;
+
+    font-family: 'Yatra One', cursive;
+
+*/
+
+#logo {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#logo_link {
+    text-decoration: none;
+}
+
+#logo-bakgrunns-farge {
+    background-color: #551A8B;
+}
+
+
+#navbar {
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    border-top: 10px solid #551A8B;
+    border-bottom: 10px solid #551A8B;
+}
+
+#navbar a {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Suez One', serif;
+}
+
+.innhold {
     margin-left: 25%;
     margin-right: 25%;
-    background-color: white;
-    font-family: monospace;
-
 }
 
-#lagetavvidar {
-    font-weight: bold;
-    color: red;
-}
-
-body {
-    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+#navbar a:hover {
+    background-color: #551A8B;
+    color: white;
 }
