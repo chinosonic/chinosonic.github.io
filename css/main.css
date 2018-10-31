@@ -1,20 +1,73 @@
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'IBM Plex Mono', monospace;
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 .vertical-menu {
-    width: 200px; /* Set a width if you like */
+    width: 350px; /* Set a width if you like */
+    height: 240px;
+    padding: 30px;
+    border: 10px groove blue;
+    background-image: url(../img/verdensrommet.jpg);
 }
 
 .vertical-menu a {
-    background-image: url("img/bladmonster.jpg") /* Grey background color */
+    background-color: yellow; /* Grey background color */
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
+    z-index: 0;
 }
 
 .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: red;
+    color: white;
 }
 
 .vertical-menu a.active {
-    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    background-color: red; /* Add a green color to the "active/current" link */
     color: white;
+}
+
+
+#logo {
+    width: 1100px;
+    height: 300px;
+    border: 10px groove blue;
+}
+
+.overstedel {
+    display: flex;
+}
+
+.innhold {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 10px 15px 5px yellow;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 10px;
+}
+
+.bakgrunnsbilde {
+    background-image: url(../img/bakgrunn.jpg);
+    height: 100%;
+    background-position: center;
+}
+
+.tekst1 {
+    font-size: 40px;
 }
